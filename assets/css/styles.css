@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400&display=swap');
+
+body{
+    padding: 0px;
+    margin: 1px;
+    display: flex;
+    font-family: "roboto","open-sans";
+    color: #1b1f21;
+        
+}
+
+aside{
+    border-right: 1px solid gray;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.usuario{
+    border-width: 0px 0px 1px 0px;
+    border-color: #bec1bb;
+    border-style: solid;
+    display:flex;
+    justify-content: space-between;
+    gap: 2em;
+    padding: 0.75em 0.75em 0.75em 2em;
+    
+}
+
+.userdata{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+
+}
+
+.userpic{
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    border-right: 1px solid gray;
+}
+
+.userstat{
+    padding: 0.75em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name{
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.status{
+    font-size: 10px ;
+    color: #828485;
+    padding: 0px;
+    margin: 0px;
+}
+
+.icon{
+    padding: 1em;  
+    display: flex;
+    gap: 1em;
+
+}
+
+.boton{
+    border-width: 0px 0px 1px 0px;
+    border-color: #bec1bb;
+    border-style: solid;
+    padding:2em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+button{
+    background-color: #a491d2;
+    color: white;
+    font-size: 16px;
+    padding: 0.75em 2.5em 0.75em 2.5em;
+    border: 0px;
+    
+}
+
+button:hover{
+    background-color: #cdc3e6;
+
+}
+
+button:focus{
+    background-color: #bec1bb;
+
+}
+
+.contacto{
+    border-width: 0px 0px 1px 0px;
+    border-color: #bec1bb;
+    border-style: solid;
+    display:flex;
+    justify-content: flex-start;
+    gap: 2em;
+    padding: 0.75em 0.75em 0.75em 2em;
+    
+}
+
+.contacto:hover{
+    background-color: #cdc3e6;
+
+}
+
+.contactpic{
+    border-radius: 50%;
+    width: 4em;
+    height: 4em; 
+    border-right: 1px solid gray;
+    
+}
+
+.contactactive{
+    border-width: 0px 0px 1px 0px;
+    border-color: #cdc3e6;
+    border-style: solid;
+    background-color: #cdc3e6 ;
+    display:flex;
+    justify-content: flex-start;
+    gap: 2em;
+    padding: 0.75em 0.75em 0.75em 2em;
+    font-weight:bolder;
+    
+}
+
+.contactactive:hover{
+    background-color: #a491d2;
+
+}
+
+.mensajes{
+    font-size: 14px ;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 300;
+}
+
+.contenedor{
+    flex-grow: 1;
+    background-color: #e8ebe4 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+
+.nert{
+    width: 240px;
+    border-radius: 5%;
+
+}
+
+h1{
+    font-size: 45px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
